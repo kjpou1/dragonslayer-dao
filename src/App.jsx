@@ -2,8 +2,6 @@ import { useAddress, useMetamask, useEditionDrop, useToken, useVote, useNetwork 
 import { useState, useEffect, useMemo } from 'react';
 import { AddressZero } from "@ethersproject/constants";
 import { ChainId } from '@thirdweb-dev/sdk'
-import bg from  "./assets/knight-fighting-dragon-with-princess.jpeg"
-import bg1 from  "./assets/knight-fighting-dragon.png"
 
 
 const App = () => {
