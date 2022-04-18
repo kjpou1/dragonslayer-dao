@@ -4,7 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #286ff6;
   color: #fff;
   overflow-x: hidden;
 }
@@ -40,6 +40,29 @@ h1 {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #f00;
+}
+
+.back_ground
+{
+background-image: url(./assets/dragon-and-knight.png);
+-moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-webkit-background-size: 100% 100%; 
+background-size: 100% 100%;  
+background-color:#286ff6; /*this your primary color*/  
+color: #286ff6;
+text-shadow: 0 0 5px #a200ff, 0 0 15px #0000ff;
+}
+
+.back_ground_member
+{
+background-image: url(./assets/knight-fighting-dragon-with-princess.jpeg);
+-moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-webkit-background-size: 100% 100%; 
+background-size: 100% 100%;  
+background-color:#286ff6; /*this your primary color*/  
+color: #024a2c
 }
 
 .landing,
@@ -93,7 +116,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #286ff6;
 }
 
 .member-page form .card > div {
